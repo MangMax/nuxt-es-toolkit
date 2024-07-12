@@ -106,18 +106,18 @@ The development of `nuxt-es-tookit` was made possible thanks to the inspiration 
 
 ## 📄 License
 
-[MIT License](https://github.com/mangmax/nuxt-es-toolkit/blob/master/LICENSE) © 2024 - [Mang](https://github.com/bbg)
+[MIT License](https://github.com/mangmax/nuxt-es-toolkit/blob/main/LICENSE) © 2024 - [Mang](https://github.com/bbg)
 
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/my-module/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-es-toolkit/latest.svg?style=flat&colorA=020420&colorB=00DC82
 [npm-version-href]: https://npmjs.com/package/nuxt-es-toolkit
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/my-module.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-es-toolkit.svg?style=flat&colorA=020420&colorB=00DC82
 [npm-downloads-href]: https://npmjs.com/package/nuxt-es-toolkit
 
-[license-src]: https://img.shields.io/npm/l/my-module.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/nuxt-es-toolkit
+[license-src]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://github.com/mangmax/nuxt-es-toolkit/blob/main/LICENSE
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
