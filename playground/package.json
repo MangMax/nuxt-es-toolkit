@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "nuxt-es-toolkit-playground",
+  "type": "module",
+  "scripts": {
+    "postinstall": "nuxi prepare",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "nuxt": "^3.12.3"
+  }
+}
