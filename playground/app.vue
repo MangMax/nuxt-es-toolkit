@@ -25,19 +25,19 @@ const fish = [
   },
 ]
 
-const ra = {
-  Mode: 'god',
-  Power: 'sun',
-}
+// const ra = {
+//   Mode: 'god',
+//   Power: 'sun',
+// }
 
 // array
 const countBy = useCountby(fish, 'weight')
 // math
 const meanBy = useMeanby(fish, 'weight')
 // object
-const pick = usePick(ra, ['Mode', 'Power'])
+// const pick = usePick(ra, ['Mode', 'Power'])
 // predicate
-const isnil = isNil(ra)
+// const isnil = isNil(ra)
 // string
 const capitalize = useCapitalize('hello')
 </script>
