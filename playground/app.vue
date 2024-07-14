@@ -2,6 +2,8 @@
   <div>
     <pre>{{ countBy }}</pre>
     <pre>{{ meanBy }}</pre>
+    <pre>{{ pick }}</pre>
+    <pre>{{ isnil }}</pre>
     <pre>{{ capitalize }}</pre>
   </div>
 </template>
