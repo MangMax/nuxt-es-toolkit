@@ -106,7 +106,7 @@ The development of `nuxt-es-tookit` was made possible thanks to the inspiration 
 
 ## 📄 License
 
-[MIT License](https://github.com/mangmax/nuxt-es-toolkit/blob/main/LICENSE) © 2024 - [Mang](https://github.com/bbg)
+[MIT License](https://github.com/mangmax/nuxt-es-toolkit/blob/main/LICENSE) © 2024 - [Mang](https://github.com/MangMax)
 
 
 <!-- Badges -->
