@@ -32,14 +32,15 @@ const ra = {
   Power: 'sun',
 }
 
+const array = [1, 2, 3, 4, 5, 6]
 // array
-const countBy = useCountby(fish, 'weight')
+const countBy = useCountby(array, x => x % 2 === 0 ? 'even' : 'odd')
 // math
-const meanBy = useMeanby(fish, 'weight')
-// object
+const meanBy = useMeanby(fish, x => x.weight)
+// // object
 const pick = usePick(ra, ['Mode', 'Power'])
-// predicate
+// // predicate
 const isnil = isNil(ra)
-// string
+// // string
 const capitalize = useCapitalize('hello')
 </script>
