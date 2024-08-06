@@ -10,23 +10,23 @@
 
 ## 📦 Install
 
-Install `nuxt-es-tookit` as development dependency:
+Install `nuxt-es-toolkit` as development dependency:
 
 ```bash
-npm i nuxt-es-tookit -D
+npm i nuxt-es-toolkit -D
 ```
 
 Add it to the `modules` section of your `nuxt.config`:
 
 ```ts
 export default defineNuxtConfig({
-  modules: ["nuxt-es-tookit"],
+  modules: ["nuxt-es-toolkit"],
 });
 ```
 
 ## 🚀 Example
 
-Use any [es-tookit](https://es-toolkit.slash.page/intro.html) methods in your Nuxt application, they will be auto-imported!
+Use any [es-toolkit](https://es-toolkit.slash.page/intro.html) methods in your Nuxt application, they will be auto-imported!
 
 ```html
 <script setup>
@@ -89,8 +89,8 @@ const capitalize = useCapitalize('hello')
 
 ```ts
 export default defineNuxtConfig({
-  modules: ["nuxt-es-tookit"],
-  'es-tookit': {
+  modules: ["nuxt-es-toolkit"],
+  'es-toolkit': {
     prefix: 'use',
     prefixSkip: 'is',
     upperAfterPrefix: true,
@@ -102,7 +102,7 @@ export default defineNuxtConfig({
 ```
 
 ## Acknowledgement
-The development of `nuxt-es-tookit` was made possible thanks to the inspiration and code base from [nuxt-lodash](https://github.com/cipami/nuxt-lodash).
+The development of `nuxt-es-toolkit` was made possible thanks to the inspiration and code base from [nuxt-lodash](https://github.com/cipami/nuxt-lodash).
 
 ## 📄 License
 
