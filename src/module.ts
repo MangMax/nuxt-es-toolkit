@@ -1,19 +1,6 @@
 import { defineNuxtModule, addImports } from '@nuxt/kit'
 import * as etk from 'es-toolkit'
 
-/**
- * From Radash
- * Formats the given string in pascal case fashion
- *
- * pascal('hello world') -> 'HelloWorld'
- * pascal('va va boom') -> 'VaVaBoom'
- */
-export const pascal = (str: string): string => {
-  const parts = str?.split(/[.\-\s_]/).map(x => x.toLowerCase()) ?? []
-  if (parts.length === 0) return ''
-  return parts.map(str => str.charAt(0).toUpperCase() + str.slice(1)).join('')
-}
-
 // Module options TypeScript interface definition
 export interface ModuleOptions {
   /**
@@ -76,7 +63,7 @@ export default defineNuxtModule<ModuleOptions>({
       if (!excludes.includes(name)) {
         const alias = aliasMap.has(name) ? aliasMap.get(name)! : name
         const prefix = (!prefixSkip.some(key => alias.startsWith(key)) && options.prefix) || ''
-        const as = prefix ? prefix + (options.upperAfterPrefix ? pascal(alias) : alias) : alias
+        const as = prefix ? prefix + (options.upperAfterPrefix ? etk.capitalize(alias) : alias) : alias
         addImports({ name, as, from: 'es-toolkit' })
       }
     }
