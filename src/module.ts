@@ -63,7 +63,7 @@ export default defineNuxtModule<ModuleOptions>({
       if (!excludes.includes(name)) {
         const alias = aliasMap.has(name) ? aliasMap.get(name)! : name
         const prefix = (!prefixSkip.some(key => alias.startsWith(key)) && options.prefix) || ''
-        const as = prefix ? prefix + (options.upperAfterPrefix ? etk.capitalize(alias) : alias) : alias
+        const as = prefix ? prefix + (options.upperAfterPrefix ? etk.camelCase(alias) : alias) : alias
         addImports({ name, as, from: 'es-toolkit' })
       }
     }
