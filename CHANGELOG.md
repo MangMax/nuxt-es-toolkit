@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/mangmax/nuxt-es-toolkit/compare/v1.0.2...v1.2.0)
+
+### 🚀 Enhancements
+
+- Update es-toolkit to 1.15.1 ([248613a](https://github.com/mangmax/nuxt-es-toolkit/commit/248613a))
+
+### 🩹 Fixes
+
+- Convert to pascalCase error ([da4d4f5](https://github.com/mangmax/nuxt-es-toolkit/commit/da4d4f5))
+- Release scrtip err ([2257d93](https://github.com/mangmax/nuxt-es-toolkit/commit/2257d93))
+
+### 🏡 Chore
+
+- **release:** V1.0.2 ([e14938e](https://github.com/mangmax/nuxt-es-toolkit/commit/e14938e))
+- **release:** V1.1.0 ([f0ab651](https://github.com/mangmax/nuxt-es-toolkit/commit/f0ab651))
+- Merge ([964ccd9](https://github.com/mangmax/nuxt-es-toolkit/commit/964ccd9))
+
+### ❤️ Contributors
+
+- Mang <1061875478@qq.com>
+
 ## v1.1.0
 
 [compare changes](https://github.com/mangmax/nuxt-es-toolkit/compare/v1.0.1...v1.1.0)
