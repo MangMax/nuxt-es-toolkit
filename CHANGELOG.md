@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v1.4.0
+
+[compare changes](https://github.com/mangmax/nuxt-es-toolkit/compare/v1.3.0...v1.4.0)
+
+### 🚀 Enhancements
+
+- Updated es-toolkit to 1.22.0 ([40a5db8](https://github.com/mangmax/nuxt-es-toolkit/commit/40a5db8))
+
+### 🏡 Chore
+
+- **release:** V1.3.0 ([b5a79d3](https://github.com/mangmax/nuxt-es-toolkit/commit/b5a79d3))
+- Update deps ([2684e96](https://github.com/mangmax/nuxt-es-toolkit/commit/2684e96))
+
+### ❤️ Contributors
+
+- Mang <1061875478@qq.com>
+
 ## v1.3.0
 
 [compare changes](https://github.com/mangmax/nuxt-es-toolkit/compare/v1.2.2...v1.3.0)
