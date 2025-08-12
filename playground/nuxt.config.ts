@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
-  'modules': ['../src/module'],
+  'compatibilityDate': '2024-07-14',
+  'devtools': { enabled: true },
   'es-toolkit': {
     prefix: 'use',
     prefixSkip: 'is',
@@ -7,6 +8,5 @@ export default defineNuxtConfig({
     alias: [],
     upperAfterPrefix: true,
   },
-  'devtools': { enabled: true },
-  'compatibilityDate': '2024-07-14',
+  'modules': ['../src/module'],
 })
